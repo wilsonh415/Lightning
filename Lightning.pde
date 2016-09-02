@@ -5,11 +5,12 @@ int endY = 60;
 
 void setup() {
 strokeWeight(4);
-background(125,125,125);
+background(0);
 size(400,400);
 }
 void draw()
 {	
+	background(0);
 	stroke(255,255,0);
 	fill(255,255,255);
 	rect(100,0,200,30);
@@ -32,7 +33,7 @@ while(endX <= 400) {
 void mousePressed()
 {
 
-	background(125,125,125);
+	background(255);
 	stroke(0);
 	textSize(15);
 	text("The Lightning Generator", 110, 20);
